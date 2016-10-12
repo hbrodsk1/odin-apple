@@ -1,0 +1,154 @@
+/* * {
+	border: 1px solid red;
+}
+*/
+.hero {
+	position: absolute;
+	width: 100%;
+	height: 538px;
+	left: 0;
+	top: 0;
+	background-color: #cccccc;
+	background-image: url("http://media.architecturaldigest.com/photos/5699802bc6772b7614567435/2:1/w_2560/new-york-city-guide.jpg");
+	background-size: cover;
+}
+
+.nav {
+	position: relative;
+	display: block;
+	margin: auto;
+	top: 18px;
+	width: 980px;
+	height: 36px;
+}
+
+.nav-list {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: -16px;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav-list-item {
+	background: linear-gradient(#808080, #5e5e5e);
+	position: relative;
+	width: 106.75px;
+	height: 100%;
+	font-size: 13px;
+	float: left;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 36px;
+	border-right: 1px solid #666666;
+	box-shadow: 1px 1px 5px black;
+}
+
+.first-nav-item {
+	border-radius: 5px 0 0 5px;
+}
+
+.last-nav-item {
+	border-radius: 0 5px 5px 0;
+	border-style: none;
+}
+
+.top-row {
+	position: relative;
+	top: 100px;
+	display: flex;
+  	justify-content: center;
+	width: 100%;
+	height: 104px;
+	text-align: center;
+}
+
+.top-row h1 {
+	position: relative;
+	font-size: 60px;
+    line-height: 60px;
+    font-weight: 100;
+    font-family: arial;
+    color: #6e2e3e;
+    align-self: center;
+}
+
+.middle-row {
+	position: relative;
+	top: 100px;
+	display: flex;
+  	justify-content: center;
+	width: 100%;
+	height: 82px;
+	text-align: center;
+}
+
+.middle-row h2 {
+	position: relative;
+	margin: auto;
+	width: 65%;
+	font-size: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    font-family: arial;
+    color: #6e2e3e;
+    align-self: center;
+}
+
+.bottom-row {
+	position: relative;
+	top: 100px;
+	display: flex;
+  	justify-content: center;
+	width: 100%;
+	height: 82px;
+	text-align: center;
+}
+
+.bottom-row h5 {
+	position: relative;
+	margin: auto;
+	width: 65%;
+	font-size: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    font-family: arial;
+    color: #6e2e3e;
+    align-self: center;
+}
+
+.picture-ribbon {
+	position: absolute;
+	top: 542px;
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	left: 0;
+}
+
+.ribbon-list {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	list-style-type: none;
+	border: 0;
+	margin: 0;
+	padding-left: 0;
+}
+
+.ribbon-list-item {
+	width: 320px;
+	height: 100%;
+	border: 0;
+	float: left;
+}
+
+.ribbon-list img {
+	position: relative;
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
